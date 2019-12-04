@@ -87,9 +87,9 @@ const gotOnlySameTwoAdjacents = pwd => {
   }
 };
 
-console.time('Time part2:');
+console.time('Time part1');
 console.log(calcDifferentPasswords(input));
-console.timeEnd('Time part2:');
-console.time('Time part2:');
+console.timeEnd('Time part1');
+console.time('Time part2');
 console.log(calcDifferentPasswords(input, true));
-console.timeEnd('Time part2:');
+console.timeEnd('Time part2');
