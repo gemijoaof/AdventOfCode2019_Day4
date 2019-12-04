@@ -66,7 +66,6 @@ const gotOnlySameTwoAdjacents = pwd => {
   let pwdStr = pwd.toString();
   let lastNumber = '';
   let acc = 1;
-  let result = false;
 
   for (const number of pwdStr) {
     if (lastNumber === '') {
